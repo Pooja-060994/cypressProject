@@ -1,0 +1,69 @@
+{
+  "originalData":{
+    "First Name": "Alden",
+    "Last Name": "Cantrell",
+    "Age": "30",
+    "Email": "test@test.com",
+    "Salary": "12345",
+    "Department": "QA"
+  },
+  "updatedData":{
+    "First Name": "Gerimedica",
+    "Last Name": "BV",
+    "Age": "45",
+    "Email": "alden@example.com",
+    "Salary": "12000",
+    "Department": "Compliance"
+  },
+  "formData":{
+    "First Name": "Gerimedica",
+    "Last Name": "BV",
+    "Email": "test@test.com",
+    "Gender": "Male",
+    "Mobile": "0123456789",
+    "Date of Birth": "15th January 1990",
+    "Subjects": "Cypress Assignment",
+    "Hobbies": "Reading",
+    "image":"Home.jpg",
+    "Current Address": "Netherlands",
+    "State and City": "NCR, Delhi"
+  },
+  "expectedFormData":{
+    "Student Name": "Gerimedica BV",
+    "Student Email": "test@test.com",
+    "Gender": "Male",
+    "Mobile": "0123456789",
+    "Date of Birth": "15 January,1990",
+    "Subjects": "",
+    "Hobbies": "Reading",
+    "Picture": "Home.jpg",
+    "Address": "Netherlands",
+    "State and City": "NCR Delhi"
+},
+"createUserApiData":
+{
+  "valid": {
+    "userName": "testuser",
+    "password": "test@123Pass",
+    "email": "testuser@gmail.com",
+    "firstName": "Test",
+    "lastName": "User",
+    "phoneNumber": "+1234567890",
+    "userStatus": "1"
+  },
+  "invalid": {
+    "userName": "testuser",
+    "password": "testpass",
+    "email": "testuser",
+    "firstName": "Test",
+    "lastName": "User",
+    "phoneNumber": "+1234567890",
+    "userStatus": "1"
+  }
+},
+"invalidPassMsg": "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer.",
+"emptyISBNmsg":"ISBN supplied is not available in Books Collection!",
+"invalidISBNmsg":"ISBN supplied is not available in User's Collection!"
+
+
+}
