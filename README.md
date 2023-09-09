@@ -1,5 +1,3 @@
-<h1 align="center">PoojaBharti-GM-Assignment</h1>
-
 ## Project Info
 
 ```sh
